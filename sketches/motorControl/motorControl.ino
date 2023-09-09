@@ -1,3 +1,12 @@
+/*
+* Description: Initial Arduino sketch for mapping the values of a potentiometer to the servo.
+*              This allows for basic actuation for turning the vehicle.
+*
+* Author: Drew Rosales
+*
+* Date: 9/9/23
+*/
+
 #include <Servo.h>
 Servo ESC;
 
