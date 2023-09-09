@@ -15,16 +15,14 @@ auton/
 
 ## Using arduino-cli
  List board fqbn, port, and name
-    ``` bash
-        arduino-cli board list
-    ```
----
+```
+    arduino-cli board list
+```
  Compiling Sketch
-    ``` bash
-        arduino-cli compile --fqbn arduino:avr:uno [path-to-sketch]
-    ```
----
+```
+    arduino-cli compile --fqbn arduino:avr:uno [path-to-sketch]
+```
  Uploading Sketch
-    ``` bash
-        arduino-cli upload -p [arduino-port-name] --fqbn arduino:avr:uno [path-to-sketch]
-    ```
+```
+arduino-cli upload -p [arduino-port-name] --fqbn arduino:avr:uno [path-to-sketch]
+```
